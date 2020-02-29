@@ -1,5 +1,9 @@
 body{
+    margin: 0;
     font-family: 'Source Sans Pro';
+}
+section{
+    height: 500px;
 }
 h1{
     font-size: 40px;
@@ -11,9 +15,76 @@ h1{
 .start{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
+    margin-top: 1%;
 }
 .start img{
     width: 100%;
+}
+.backround{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.first_button{
+    background-image: linear-gradient(60deg,red, yellow);    
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.start_two{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.start_two img{
+    width: 100%;
+}
+.center_top{
+      margin-top: 25%;
+}
+.align{
+    padding-left: 20px;
+}
+.backround_two{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.same_class{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.exprience_area{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, red, yellow);
+    border-image-slice: 1;
+
+}
+#baby{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, rgb(6, 204, 253));
+    border-image-slice: 1;
+
+}
+.left{
+    margin-left: 5%;
+    font-weight: 700px;
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
 }
